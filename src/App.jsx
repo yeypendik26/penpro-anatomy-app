@@ -26,9 +26,13 @@ export default function App() {
     return m
   }, [soal, answered, quiz.picked])
 
+  // focus hanya setelah dijawab: kamera yang mendekat ke jawaban sebelum itu membocorkannya.
   const viewerQuiz = useMemo(
-    () => (mode === 'quiz' ? { visible: soal?.visible ?? null, marks } : null),
-    [mode, soal, marks],
+    () =>
+      mode === 'quiz'
+        ? { visible: soal?.visible ?? null, marks, focus: answered ? soal.answer : null }
+        : null,
+    [mode, soal, marks, answered],
   )
 
   const handlePick = (name) => {
@@ -49,7 +53,7 @@ export default function App() {
   }
 
   return (
-    <div className="app">
+    <div className={mode === 'quiz' ? 'app mode-quiz' : 'app'}>
       <header className="topbar">
         <h1>Atlas Anatomi</h1>
         <span className="region">Ekstremitas superior dextra</span>

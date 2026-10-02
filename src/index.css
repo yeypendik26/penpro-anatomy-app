@@ -130,6 +130,26 @@ body {
 }
 .mode button.on { background: var(--line); color: var(--text); }
 
+/* Mode quiz: tinggi canvas TETAP, hanya bergantung tinggi viewport — tidak pada
+   panjang prompt atau ada-tidaknya explain. Kalau canvas ikut berubah tinggi,
+   kamera dipasang ulang dan bergeser tiap ganti soal. Panel soal mengisi sisa
+   tinggi dan scroll di dalamnya. svh, bukan dvh: dvh ikut berubah saat address
+   bar HP muncul/hilang. Mode atlas tidak memakai aturan ini. */
+.mode-quiz .viewer { flex: 0 0 auto; min-height: 0; height: max(55vh, calc(100vh - 340px)); height: max(55svh, calc(100svh - 340px)); }
+.mode-quiz .readout.quiz { flex: 1 1 0; min-height: 0; padding-top: 0; }
+.quiz-head {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  padding: 6px 0;
+  background: var(--panel);
+}
+
 .quiz-meta { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .quiz-prompt { font-size: 15px; font-weight: 600; margin: 4px 0 8px; }
 .quiz-result { font-size: 13px; margin-bottom: 8px; }

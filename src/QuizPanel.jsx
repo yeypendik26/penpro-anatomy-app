@@ -23,10 +23,20 @@ export default function QuizPanel({ soal, nomor, total, picked, benar, dijawab, 
   const answered = picked !== null
   const ok = answered && soal.answer.includes(picked)
 
+  // key per soal: panel di-mount ulang, jadi scroll dari soal sebelumnya tidak terbawa.
+  // Tombol lanjut di baris kepala yang menempel (sticky): panel tingginya tetap dan
+  // scroll di dalam, tombol tetap terlihat sepanjang apa pun prompt dan jawabannya.
   return (
-    <div className="readout quiz">
-      <div className="quiz-meta">
-        Soal {nomor}/{total} · Skor {benar}/{dijawab}
+    <div className="readout quiz" key={nomor}>
+      <div className="quiz-head">
+        <span className="quiz-meta">
+          Soal {nomor}/{total} · Skor {benar}/{dijawab}
+        </span>
+        {answered && (
+          <button type="button" className="quiz-btn" onClick={onNext}>
+            {nomor < total ? 'Soal berikutnya' : 'Lihat skor'}
+          </button>
+        )}
       </div>
       <div className="quiz-prompt">{soal.prompt}</div>
       {answered ? (
@@ -35,9 +45,6 @@ export default function QuizPanel({ soal, nomor, total, picked, benar, dijawab, 
             <span className={ok ? 'quiz-ok' : 'quiz-no'}>{ok ? 'Benar.' : 'Salah.'}</span>
             {!ok && <> Jawaban: {soal.answer.map(namaLatin).join(', ')}</>}
           </div>
-          <button type="button" className="quiz-btn" onClick={onNext}>
-            {nomor < total ? 'Soal berikutnya' : 'Lihat skor'}
-          </button>
           {soal.explain && <p className="quiz-explain">{soal.explain}</p>}
           {/* Panel info baru tampil setelah dijawab: nama latin di panel membocorkan jawaban. */}
           <InfoPanel selected={picked} />
