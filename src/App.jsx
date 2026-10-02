@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
 import Viewer from './Viewer.jsx'
-import { prettyName } from './layers.js'
+import InfoPanel from './InfoPanel.jsx'
 
 export default function App() {
   const [selected, setSelected] = useState(null)
@@ -19,18 +19,7 @@ export default function App() {
 
       <Viewer selected={selected} onPick={setSelected} onNodes={handleNodes} />
 
-      <div className="readout">
-        {selected ? (
-          <>
-            <div className="readout-name">{prettyName(selected)}</div>
-            <code className="readout-code">{selected}</code>
-          </>
-        ) : (
-          <div className="readout-empty">
-            Klik sebuah struktur. Drag untuk memutar, scroll untuk zoom.
-          </div>
-        )}
-      </div>
+      <InfoPanel selected={selected} />
 
       <footer className="attribution">
         Model anatomi berbasis BodyParts3D © Database Center for Life Science (DBCLS), CC BY-SA

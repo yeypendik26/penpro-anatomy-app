@@ -38,7 +38,8 @@ body {
 .spacer { flex: 1; }
 .meta { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
-.viewer { position: relative; flex: 1; min-height: 0; }
+/* Canvas minimal 55% tinggi layar; kalau panel info panjang, panelnya yang scroll. */
+.viewer { position: relative; flex: 1; min-height: 55vh; min-height: 55dvh; }
 .viewer canvas { display: block; touch-action: none; }
 
 .layers {
@@ -97,11 +98,24 @@ body {
   background: var(--panel);
   padding: 10px 16px;
   min-height: 54px;
+  flex: 0 1 auto;
+  overflow-y: auto;
 }
 
-.readout-name { font-size: 14px; font-weight: 600; color: var(--accent); }
+.readout-name { font-size: 17px; font-weight: 600; color: var(--accent); }
 .readout-code { font-size: 11px; color: var(--muted); font-family: ui-monospace, monospace; }
 .readout-empty { font-size: 13px; color: var(--muted); }
+
+.info { margin: 8px 0 0; font-size: 13px; }
+.info-row {
+  display: grid;
+  grid-template-columns: 104px 1fr;
+  gap: 8px;
+  padding: 3px 0;
+}
+.info dt { color: var(--muted); }
+.info dd { margin: 0; overflow-wrap: anywhere; }
+.info-empty { color: var(--muted); opacity: 0.55; font-style: italic; }
 
 .attribution {
   padding: 7px 16px;
