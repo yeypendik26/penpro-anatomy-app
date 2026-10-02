@@ -1,5 +1,5 @@
 import STRUKTUR from './struktur.json'
-import { layerOf, prettyName } from './layers.js'
+import { prettyName } from './layers.js'
 
 // Field yang ditampilkan per kategori. Origo s.d. vaskularisasi hanya
 // bermakna untuk otot; kategori lain cukup nama + catatan klinis.
@@ -24,8 +24,9 @@ export default function InfoPanel({ selected }) {
   }
 
   const data = STRUKTUR[selected]
-  const kategori = data?.kategori ?? layerOf(selected)
-  const fields = kategori === 'm_' ? FIELDS_OTOT : FIELDS_LAIN
+  // Pilih field dari prefix nama node, bukan dari `kategori`: prefix sudah ada
+  // di nama node, membacanya dari dua tempat bisa desync. `kategori` = label saja.
+  const fields = selected.startsWith('m_') ? FIELDS_OTOT : FIELDS_LAIN
 
   return (
     <div className="readout">

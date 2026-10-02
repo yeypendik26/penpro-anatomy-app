@@ -2,7 +2,7 @@
   "a_axillaris": {
     "nama_latin": "A. axillaris",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -12,7 +12,7 @@
   "a_brachialis": {
     "nama_latin": "A. brachialis",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -22,7 +22,7 @@
   "a_circumflexa-humeri-anterior": {
     "nama_latin": "A. circumflexa humeri anterior",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -32,7 +32,7 @@
   "a_circumflexa-humeri-posterior": {
     "nama_latin": "A. circumflexa humeri posterior",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -42,7 +42,7 @@
   "a_interossea-communis": {
     "nama_latin": "A. interossea communis",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -52,7 +52,7 @@
   "a_profunda-brachii": {
     "nama_latin": "A. profunda brachii",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -62,7 +62,7 @@
   "a_radialis": {
     "nama_latin": "A. radialis",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -72,7 +72,7 @@
   "a_subclavia": {
     "nama_latin": "A. subclavia",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -82,7 +82,7 @@
   "a_subscapularis": {
     "nama_latin": "A. subscapularis",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -92,7 +92,7 @@
   "a_thoracica-lateralis": {
     "nama_latin": "A. thoracica lateralis",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -102,7 +102,7 @@
   "a_thoracodorsalis": {
     "nama_latin": "A. thoracodorsalis",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -112,7 +112,7 @@
   "a_ulnaris": {
     "nama_latin": "A. ulnaris",
     "region": "ekstremitas-superior",
-    "kategori": "a_",
+    "kategori": "arteria",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -122,7 +122,7 @@
   "lig_membrana-interossea-antebrachii": {
     "nama_latin": "Membrana interossea antebrachii",
     "region": "ekstremitas-superior",
-    "kategori": "lig_",
+    "kategori": "ligamentum",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -132,7 +132,7 @@
   "lig_retinaculum-flexorum": {
     "nama_latin": "Retinaculum flexorum",
     "region": "ekstremitas-superior",
-    "kategori": "lig_",
+    "kategori": "ligamentum",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -142,7 +142,7 @@
   "m_abductor-digiti-minimi": {
     "nama_latin": "M. abductor digiti minimi",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -152,7 +152,7 @@
   "m_abductor-pollicis-brevis": {
     "nama_latin": "M. abductor pollicis brevis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -162,7 +162,7 @@
   "m_abductor-pollicis-longus": {
     "nama_latin": "M. abductor pollicis longus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -172,7 +172,7 @@
   "m_adductor-pollicis-caput-obliquum": {
     "nama_latin": "M. adductor pollicis caput obliquum",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -182,7 +182,7 @@
   "m_adductor-pollicis-caput-transversum": {
     "nama_latin": "M. adductor pollicis caput transversum",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -192,7 +192,7 @@
   "m_anconeus": {
     "nama_latin": "M. anconeus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -202,7 +202,7 @@
   "m_biceps-brachii-caput-breve": {
     "nama_latin": "M. biceps brachii caput breve",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -212,7 +212,7 @@
   "m_biceps-brachii-caput-longum": {
     "nama_latin": "M. biceps brachii caput longum",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -222,7 +222,7 @@
   "m_brachialis": {
     "nama_latin": "M. brachialis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -232,7 +232,7 @@
   "m_brachioradialis": {
     "nama_latin": "M. brachioradialis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -242,7 +242,7 @@
   "m_coracobrachialis": {
     "nama_latin": "M. coracobrachialis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -252,7 +252,7 @@
   "m_deltoideus-pars-acromialis": {
     "nama_latin": "M. deltoideus pars acromialis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -262,7 +262,7 @@
   "m_deltoideus-pars-clavicularis": {
     "nama_latin": "M. deltoideus pars clavicularis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -272,7 +272,7 @@
   "m_deltoideus-pars-spinalis": {
     "nama_latin": "M. deltoideus pars spinalis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -282,7 +282,7 @@
   "m_extensor-carpi-radialis-brevis": {
     "nama_latin": "M. extensor carpi radialis brevis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -292,7 +292,7 @@
   "m_extensor-carpi-radialis-longus": {
     "nama_latin": "M. extensor carpi radialis longus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -302,7 +302,7 @@
   "m_extensor-carpi-ulnaris": {
     "nama_latin": "M. extensor carpi ulnaris",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -312,7 +312,7 @@
   "m_extensor-digiti-minimi": {
     "nama_latin": "M. extensor digiti minimi",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -322,7 +322,7 @@
   "m_extensor-digitorum": {
     "nama_latin": "M. extensor digitorum",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -332,7 +332,7 @@
   "m_extensor-indicis": {
     "nama_latin": "M. extensor indicis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -342,7 +342,7 @@
   "m_extensor-pollicis-brevis": {
     "nama_latin": "M. extensor pollicis brevis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -352,7 +352,7 @@
   "m_extensor-pollicis-longus": {
     "nama_latin": "M. extensor pollicis longus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -362,7 +362,7 @@
   "m_flexor-carpi-radialis": {
     "nama_latin": "M. flexor carpi radialis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -372,7 +372,7 @@
   "m_flexor-carpi-ulnaris-caput-humerale": {
     "nama_latin": "M. flexor carpi ulnaris caput humerale",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -382,7 +382,7 @@
   "m_flexor-carpi-ulnaris-caput-ulnare": {
     "nama_latin": "M. flexor carpi ulnaris caput ulnare",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -392,7 +392,7 @@
   "m_flexor-digiti-minimi-brevis": {
     "nama_latin": "M. flexor digiti minimi brevis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -402,7 +402,7 @@
   "m_flexor-digitorum-profundus": {
     "nama_latin": "M. flexor digitorum profundus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -412,7 +412,7 @@
   "m_flexor-digitorum-superficialis": {
     "nama_latin": "M. flexor digitorum superficialis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -422,7 +422,7 @@
   "m_flexor-pollicis-brevis": {
     "nama_latin": "M. flexor pollicis brevis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -432,7 +432,7 @@
   "m_flexor-pollicis-longus": {
     "nama_latin": "M. flexor pollicis longus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -442,7 +442,7 @@
   "m_infraspinatus": {
     "nama_latin": "M. infraspinatus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -452,7 +452,7 @@
   "m_interossei-dorsales": {
     "nama_latin": "M. interossei dorsales",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -462,7 +462,7 @@
   "m_interossei-palmares": {
     "nama_latin": "M. interossei palmares",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -472,7 +472,7 @@
   "m_levator-scapulae": {
     "nama_latin": "M. levator scapulae",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -482,7 +482,7 @@
   "m_lumbricales": {
     "nama_latin": "M. lumbricales",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -492,7 +492,7 @@
   "m_opponens-digiti-minimi": {
     "nama_latin": "M. opponens digiti minimi",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -502,7 +502,7 @@
   "m_opponens-pollicis": {
     "nama_latin": "M. opponens pollicis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -512,7 +512,7 @@
   "m_palmaris-longus": {
     "nama_latin": "M. palmaris longus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -522,7 +522,7 @@
   "m_pectoralis-major-pars-abdominalis": {
     "nama_latin": "M. pectoralis major pars abdominalis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -532,7 +532,7 @@
   "m_pectoralis-major-pars-clavicularis": {
     "nama_latin": "M. pectoralis major pars clavicularis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -542,7 +542,7 @@
   "m_pectoralis-major-pars-sternocostalis": {
     "nama_latin": "M. pectoralis major pars sternocostalis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -552,7 +552,7 @@
   "m_pectoralis-minor": {
     "nama_latin": "M. pectoralis minor",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -562,7 +562,7 @@
   "m_pronator-quadratus": {
     "nama_latin": "M. pronator quadratus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -572,7 +572,7 @@
   "m_pronator-teres-caput-humerale": {
     "nama_latin": "M. pronator teres caput humerale",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -582,7 +582,7 @@
   "m_pronator-teres-caput-ulnare": {
     "nama_latin": "M. pronator teres caput ulnare",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -592,7 +592,7 @@
   "m_rhomboideus-major": {
     "nama_latin": "M. rhomboideus major",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -602,7 +602,7 @@
   "m_rhomboideus-minor": {
     "nama_latin": "M. rhomboideus minor",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -612,7 +612,7 @@
   "m_serratus-anterior": {
     "nama_latin": "M. serratus anterior",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -622,7 +622,7 @@
   "m_subclavius": {
     "nama_latin": "M. subclavius",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -632,7 +632,7 @@
   "m_subscapularis": {
     "nama_latin": "M. subscapularis",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -642,7 +642,7 @@
   "m_supinator": {
     "nama_latin": "M. supinator",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -652,7 +652,7 @@
   "m_supraspinatus": {
     "nama_latin": "M. supraspinatus",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -662,7 +662,7 @@
   "m_teres-major": {
     "nama_latin": "M. teres major",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -672,7 +672,7 @@
   "m_teres-minor": {
     "nama_latin": "M. teres minor",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -682,7 +682,7 @@
   "m_trapezius-pars-ascendens": {
     "nama_latin": "M. trapezius pars ascendens",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -692,7 +692,7 @@
   "m_trapezius-pars-descendens": {
     "nama_latin": "M. trapezius pars descendens",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -702,7 +702,7 @@
   "m_trapezius-pars-transversa": {
     "nama_latin": "M. trapezius pars transversa",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -712,7 +712,7 @@
   "m_triceps-brachii-caput-laterale": {
     "nama_latin": "M. triceps brachii caput laterale",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -722,7 +722,7 @@
   "m_triceps-brachii-caput-longum": {
     "nama_latin": "M. triceps brachii caput longum",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -732,7 +732,7 @@
   "m_triceps-brachii-caput-mediale": {
     "nama_latin": "M. triceps brachii caput mediale",
     "region": "ekstremitas-superior",
-    "kategori": "m_",
+    "kategori": "musculus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -742,7 +742,7 @@
   "n_medianus": {
     "nama_latin": "N. medianus",
     "region": "ekstremitas-superior",
-    "kategori": "n_",
+    "kategori": "nervus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -752,7 +752,7 @@
   "n_radialis": {
     "nama_latin": "N. radialis",
     "region": "ekstremitas-superior",
-    "kategori": "n_",
+    "kategori": "nervus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -762,7 +762,7 @@
   "n_ulnaris": {
     "nama_latin": "N. ulnaris",
     "region": "ekstremitas-superior",
-    "kategori": "n_",
+    "kategori": "nervus",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -772,7 +772,7 @@
   "os_capitatum": {
     "nama_latin": "Os capitatum",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -782,7 +782,7 @@
   "os_clavicula": {
     "nama_latin": "Os clavicula",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -792,7 +792,7 @@
   "os_hamatum": {
     "nama_latin": "Os hamatum",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -802,7 +802,7 @@
   "os_humerus": {
     "nama_latin": "Os humerus",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -812,7 +812,7 @@
   "os_lunatum": {
     "nama_latin": "Os lunatum",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -822,7 +822,7 @@
   "os_metacarpalia": {
     "nama_latin": "Os metacarpalia",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -832,7 +832,7 @@
   "os_phalanges": {
     "nama_latin": "Os phalanges",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -842,7 +842,7 @@
   "os_pisiforme": {
     "nama_latin": "Os pisiforme",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -852,7 +852,7 @@
   "os_radius": {
     "nama_latin": "Os radius",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -862,7 +862,7 @@
   "os_scaphoideum": {
     "nama_latin": "Os scaphoideum",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -872,7 +872,7 @@
   "os_scapula": {
     "nama_latin": "Os scapula",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -882,7 +882,7 @@
   "os_trapezium": {
     "nama_latin": "Os trapezium",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -892,7 +892,7 @@
   "os_trapezoideum": {
     "nama_latin": "Os trapezoideum",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -902,7 +902,7 @@
   "os_triquetrum": {
     "nama_latin": "Os triquetrum",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -912,7 +912,7 @@
   "os_ulna": {
     "nama_latin": "Os ulna",
     "region": "ekstremitas-superior",
-    "kategori": "os_",
+    "kategori": "os",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -922,7 +922,7 @@
   "v_axillaris": {
     "nama_latin": "V. axillaris",
     "region": "ekstremitas-superior",
-    "kategori": "v_",
+    "kategori": "vena",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -932,7 +932,7 @@
   "v_basilica": {
     "nama_latin": "V. basilica",
     "region": "ekstremitas-superior",
-    "kategori": "v_",
+    "kategori": "vena",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -942,7 +942,7 @@
   "v_cephalica": {
     "nama_latin": "V. cephalica",
     "region": "ekstremitas-superior",
-    "kategori": "v_",
+    "kategori": "vena",
     "origo": "",
     "insersio": "",
     "inervasi": "",
@@ -952,7 +952,7 @@
   "v_mediana-cubiti": {
     "nama_latin": "V. mediana cubiti",
     "region": "ekstremitas-superior",
-    "kategori": "v_",
+    "kategori": "vena",
     "origo": "",
     "insersio": "",
     "inervasi": "",
