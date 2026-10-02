@@ -1,0 +1,411 @@
+[
+ {
+  "id": "q01",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berorigo di fossa supraspinata",
+  "answer": [
+   "m_supraspinatus"
+  ],
+  "visible": [
+   "os_",
+   "m_supraspinatus",
+   "m_infraspinatus",
+   "m_teres-minor",
+   "m_teres-major",
+   "m_subscapularis"
+  ],
+  "explain": "M. supraspinatus. Insersio tuberculum majus, inervasi n. suprascapularis, divaskularisasi a. suprascapularis. Abduksi 15 derajat pertama."
+ },
+ {
+  "id": "q02",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan satu-satunya otot rotator cuff yang berinsersio di tuberculum MINUS humeri",
+  "answer": [
+   "m_subscapularis"
+  ],
+  "visible": [
+   "os_",
+   "m_supraspinatus",
+   "m_infraspinatus",
+   "m_teres-minor",
+   "m_subscapularis"
+  ],
+  "explain": "M. subscapularis. Origo fossa subscapularis, inervasi n. subscapularis superior et inferior. Tiga rotator cuff lain semuanya ke tuberculum majus."
+ },
+ {
+  "id": "q03",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berorigo di angulus inferior scapulae",
+  "answer": [
+   "m_teres-major"
+  ],
+  "visible": [
+   "os_",
+   "m_teres-major",
+   "m_teres-minor",
+   "m_infraspinatus",
+   "m_subscapularis",
+   "m_supraspinatus"
+  ],
+  "explain": "M. teres major. Insersio crista tuberculi minoris, inervasi n. subscapularis inferior. M. teres minor berorigo di margo axillaris dan diinervasi n. axillaris."
+ },
+ {
+  "id": "q04",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berinsersio di tuberositas deltoidea",
+  "answer": [
+   "m_deltoideus-pars-clavicularis",
+   "m_deltoideus-pars-acromialis",
+   "m_deltoideus-pars-spinalis"
+  ],
+  "visible": [
+   "os_",
+   "m_deltoideus-pars-clavicularis",
+   "m_deltoideus-pars-acromialis",
+   "m_deltoideus-pars-spinalis",
+   "m_supraspinatus",
+   "m_pectoralis-major-pars-clavicularis"
+  ],
+  "explain": "M. deltoideus, tiga pars. Inervasi n. axillaris, divaskularisasi a. circumflexa humeri posterior. Abduktor bahu utama setelah 15 derajat pertama."
+ },
+ {
+  "id": "q05",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berinsersio di crista tuberculi majoris humeri",
+  "answer": [
+   "m_pectoralis-major-pars-clavicularis",
+   "m_pectoralis-major-pars-sternocostalis",
+   "m_pectoralis-major-pars-abdominalis"
+  ],
+  "visible": [
+   "os_",
+   "m_pectoralis-major-pars-clavicularis",
+   "m_pectoralis-major-pars-sternocostalis",
+   "m_pectoralis-major-pars-abdominalis",
+   "m_pectoralis-minor",
+   "m_subclavius",
+   "m_deltoideus-pars-clavicularis"
+  ],
+  "explain": "M. pectoralis major. Origo clavicula medial, sternum, cartilago costae 1-6. Inervasi n. pectoralis medialis et lateralis."
+ },
+ {
+  "id": "q06",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berinsersio di processus coracoideus scapulae",
+  "answer": [
+   "m_pectoralis-minor"
+  ],
+  "visible": [
+   "os_",
+   "m_pectoralis-minor",
+   "m_subclavius",
+   "m_serratus-anterior",
+   "m_pectoralis-major-pars-sternocostalis"
+  ],
+  "explain": "M. pectoralis minor. Origo costae 3-5, inervasi n. pectoralis medialis. M. coracobrachialis dan caput breve biceps justru berORIGO di sana."
+ },
+ {
+  "id": "q07",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang diinervasi n. thoracalis longus — lesinya menyebabkan winged scapula",
+  "answer": [
+   "m_serratus-anterior"
+  ],
+  "visible": [
+   "os_",
+   "m_serratus-anterior",
+   "m_rhomboideus-major",
+   "m_rhomboideus-minor",
+   "m_levator-scapulae",
+   "m_pectoralis-minor"
+  ],
+  "explain": "M. serratus anterior. Origo costae 1-8, insersio margo medialis scapulae. Divaskularisasi a. thoracica lateralis dan a. thoracodorsalis."
+ },
+ {
+  "id": "q08",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berorigo di processus spinosus VT 2-5",
+  "answer": [
+   "m_rhomboideus-major"
+  ],
+  "visible": [
+   "os_",
+   "m_rhomboideus-major",
+   "m_rhomboideus-minor",
+   "m_levator-scapulae",
+   "m_trapezius-pars-transversa",
+   "m_serratus-anterior"
+  ],
+  "explain": "M. rhomboideus major. Inervasi n. dorsalis scapulae, divaskularisasi ramus profundus a. transversa cervicis. M. rhomboideus minor berorigo di VC7 dan VT1."
+ },
+ {
+  "id": "q09",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berorigo di tuberositas supraglenoidalis dan infraglenoidalis",
+  "answer": [
+   "m_biceps-brachii-caput-longum",
+   "m_triceps-brachii-caput-longum"
+  ],
+  "visible": [
+   "os_",
+   "m_biceps-brachii-caput-longum",
+   "m_biceps-brachii-caput-breve",
+   "m_triceps-brachii-caput-longum",
+   "m_triceps-brachii-caput-laterale",
+   "m_coracobrachialis",
+   "m_brachialis"
+  ],
+  "explain": "Caput longum m. biceps brachii (supraglenoidalis) dan caput longum m. triceps brachii (infraglenoidalis). Keduanya melewati sendi bahu, jadi ikut berperan menstabilkannya."
+ },
+ {
+  "id": "q10",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berinsersio di tuberositas radii",
+  "answer": [
+   "m_biceps-brachii-caput-longum",
+   "m_biceps-brachii-caput-breve"
+  ],
+  "visible": [
+   "os_",
+   "m_biceps-brachii-caput-longum",
+   "m_biceps-brachii-caput-breve",
+   "m_brachialis",
+   "m_brachioradialis",
+   "m_supinator"
+  ],
+  "explain": "M. biceps brachii. Inervasi n. musculocutaneus, divaskularisasi a. brachialis. Fleksor siku sekaligus supinator kuat. M. brachialis berinsersio di tuberositas ULNAE."
+ },
+ {
+  "id": "q11",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berorigo di processus coracoideus dan berinsersio di pertengahan corpus humeri",
+  "answer": [
+   "m_coracobrachialis"
+  ],
+  "visible": [
+   "os_",
+   "m_coracobrachialis",
+   "m_biceps-brachii-caput-breve",
+   "m_brachialis",
+   "m_pectoralis-minor"
+  ],
+  "explain": "M. coracobrachialis. Inervasi n. musculocutaneus, yang justru MENEMBUS otot ini dalam perjalanannya. Divaskularisasi a. brachialis."
+ },
+ {
+  "id": "q12",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berinsersio di olecranon dan diinervasi n. radialis",
+  "answer": [
+   "m_triceps-brachii-caput-longum",
+   "m_triceps-brachii-caput-laterale",
+   "m_triceps-brachii-caput-mediale"
+  ],
+  "visible": [
+   "os_",
+   "m_triceps-brachii-caput-longum",
+   "m_triceps-brachii-caput-laterale",
+   "m_triceps-brachii-caput-mediale",
+   "m_anconeus",
+   "m_brachialis"
+  ],
+  "explain": "M. triceps brachii, tiga caput. Caput laterale berorigo cranial sulcus spiralis, caput mediale caudal sulcus spiralis. Divaskularisasi a. profunda brachii."
+ },
+ {
+  "id": "q13",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan satu-satunya otot lamina superficialis antebrachium ventral yang diinervasi N. ULNARIS",
+  "answer": [
+   "m_flexor-carpi-ulnaris-caput-humerale",
+   "m_flexor-carpi-ulnaris-caput-ulnare"
+  ],
+  "visible": [
+   "os_",
+   "m_flexor-carpi-ulnaris-caput-humerale",
+   "m_flexor-carpi-ulnaris-caput-ulnare",
+   "m_flexor-carpi-radialis",
+   "m_palmaris-longus",
+   "m_flexor-digitorum-superficialis",
+   "m_pronator-teres-caput-humerale"
+  ],
+  "explain": "M. flexor carpi ulnaris. Empat otot lamina superficialis lainnya semuanya n. medianus. N. ulnaris lewat di antara kedua caput-nya."
+ },
+ {
+  "id": "q14",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot lamina profunda antebrachium ventral yang inervasinya TERBAGI dua saraf",
+  "answer": [
+   "m_flexor-digitorum-profundus"
+  ],
+  "visible": [
+   "os_",
+   "m_flexor-digitorum-profundus",
+   "m_flexor-pollicis-longus",
+   "m_pronator-quadratus",
+   "m_flexor-digitorum-superficialis"
+  ],
+  "explain": "M. flexor digitorum profundus. Bagian radial oleh n. interosseus anterior (cabang n. medianus), bagian ulnar oleh n. ulnaris. Satu-satunya otot antebrachium dengan inervasi ganda."
+ },
+ {
+  "id": "q15",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot yang berorigo di epicondylus medialis humeri dan berfungsi pronasi",
+  "answer": [
+   "m_pronator-teres-caput-humerale",
+   "m_pronator-teres-caput-ulnare"
+  ],
+  "visible": [
+   "os_",
+   "m_pronator-teres-caput-humerale",
+   "m_pronator-teres-caput-ulnare",
+   "m_pronator-quadratus",
+   "m_flexor-carpi-radialis",
+   "m_supinator"
+  ],
+  "explain": "M. pronator teres. Inervasi n. medianus. M. pronator quadratus juga pronasi tapi berorigo di ulna distal, inervasi n. interosseus anterior."
+ },
+ {
+  "id": "q16",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot lamina profunda antebrachium dorsal yang dilewati ramus profundus n. radialis",
+  "answer": [
+   "m_supinator"
+  ],
+  "visible": [
+   "os_",
+   "m_supinator",
+   "m_abductor-pollicis-longus",
+   "m_extensor-pollicis-longus",
+   "m_extensor-indicis",
+   "m_brachioradialis"
+  ],
+  "explain": "M. supinator. Ramus profundus n. radialis menembusnya lalu menjadi n. interosseus posterior. Fraktur collum radii bisa melukainya."
+ },
+ {
+  "id": "q17",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot antebrachium dorsal yang justru berfungsi FLEKSI siku",
+  "answer": [
+   "m_brachioradialis"
+  ],
+  "visible": [
+   "os_",
+   "m_brachioradialis",
+   "m_extensor-carpi-radialis-longus",
+   "m_extensor-carpi-radialis-brevis",
+   "m_extensor-digitorum",
+   "m_supinator"
+  ],
+  "explain": "M. brachioradialis. Walau diinervasi n. radialis dan terletak di kompartemen ekstensor, kerjanya fleksi siku pada posisi midpronasi."
+ },
+ {
+  "id": "q18",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot thenar yang memutar ibu jari menghadap jari lain",
+  "answer": [
+   "m_opponens-pollicis"
+  ],
+  "visible": [
+   "os_",
+   "m_opponens-pollicis",
+   "m_abductor-pollicis-brevis",
+   "m_flexor-pollicis-brevis",
+   "m_adductor-pollicis-caput-obliquum"
+  ],
+  "explain": "M. opponens pollicis. Inervasi ramus recurrens n. medianus. Hilang pada carpal tunnel syndrome lanjut, bersama atrofi eminentia thenar."
+ },
+ {
+  "id": "q19",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan otot thenar yang diinervasi RAMUS PROFUNDUS N. ULNARIS, bukan n. medianus",
+  "answer": [
+   "m_adductor-pollicis-caput-obliquum",
+   "m_adductor-pollicis-caput-transversum"
+  ],
+  "visible": [
+   "os_",
+   "m_adductor-pollicis-caput-obliquum",
+   "m_adductor-pollicis-caput-transversum",
+   "m_opponens-pollicis",
+   "m_abductor-pollicis-brevis",
+   "m_flexor-pollicis-brevis"
+  ],
+  "explain": "M. adductor pollicis. Tiga otot thenar lain diinervasi ramus recurrens n. medianus. Kelemahannya terlihat pada Froment sign."
+ },
+ {
+  "id": "q20",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan saraf yang lewat di belakang epicondylus medialis humeri",
+  "answer": [
+   "n_ulnaris"
+  ],
+  "visible": [
+   "os_",
+   "n_ulnaris",
+   "n_medianus",
+   "n_radialis"
+  ],
+  "explain": "N. ulnaris, di sulcus n. ulnaris. Lesi di sini menyebabkan claw hand. Di distal ia lewat canalis Guyon di samping os pisiforme."
+ },
+ {
+  "id": "q21",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan saraf yang berjalan spiral di sulcus pada permukaan posterior corpus humeri",
+  "answer": [
+   "n_radialis"
+  ],
+  "visible": [
+   "os_",
+   "n_radialis",
+   "n_ulnaris",
+   "n_medianus"
+  ],
+  "explain": "N. radialis di sulcus nervi radialis. Fraktur midshaft humeri melukainya dan menyebabkan wrist drop. Menginervasi seluruh kompartemen ekstensor."
+ },
+ {
+  "id": "q22",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan saraf yang melewati canalis carpii",
+  "answer": [
+   "n_medianus"
+  ],
+  "visible": [
+   "os_",
+   "n_medianus",
+   "n_ulnaris",
+   "n_radialis"
+  ],
+  "explain": "N. medianus. Penekanannya di canalis carpii menyebabkan carpal tunnel syndrome. N. ulnaris lewat canalis Guyon, di LUAR canalis carpii."
+ },
+ {
+  "id": "q23",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan arteri yang bercabang menjadi a. radialis dan a. ulnaris di fossa cubiti",
+  "answer": [
+   "a_brachialis"
+  ],
+  "visible": [
+   "os_",
+   "a_brachialis",
+   "a_axillaris",
+   "a_radialis",
+   "a_ulnaris",
+   "a_profunda-brachii"
+  ],
+  "explain": "A. brachialis, lanjutan a. axillaris setelah melewati margo inferior m. teres major. Tempat pengukuran tekanan darah."
+ },
+ {
+  "id": "q24",
+  "region": "ekstremitas-superior",
+  "prompt": "Tunjukkan vena superfisial yang berjalan di sisi LATERAL lengan menuju sulcus deltopectoralis",
+  "answer": [
+   "v_cephalica"
+  ],
+  "visible": [
+   "os_",
+   "v_cephalica",
+   "v_basilica",
+   "v_mediana-cubiti"
+  ],
+  "explain": "V. cephalica. V. basilica berjalan di sisi medial, dan v. mediana cubiti menghubungkan keduanya di fossa cubiti — lokasi pengambilan darah vena."
+ }
+]

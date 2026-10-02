@@ -6,7 +6,12 @@ import { LAYERS, layerOf } from './layers.js'
 
 const MODEL_URL = `${import.meta.env.BASE_URL}models/ekstremitas-superior-v4.glb`
 const HIGHLIGHT = new THREE.Color(0x22d3ee)
+// Warna feedback mode quiz, dipakai lewat jalur emissive yang sama dengan highlight atlas.
+const MARK = { benar: new THREE.Color(0x22c55e), salah: new THREE.Color(0xef4444) }
 const NO_RAYCAST = () => {}
+
+// Daftar `visible` soal: entri berakhiran "_" = prefix (mis. "os_"), selain itu nama node persis.
+const inVisible = (name, list) => list.some((v) => (v.endsWith('_') ? name.startsWith(v) : name === v))
 
 function Loader() {
   const { progress } = useProgress()
@@ -82,7 +87,7 @@ function FitCamera({ box }) {
   return null
 }
 
-function Model({ selected, hiddenLayers, onPick, onReady }) {
+function Model({ selected, hiddenLayers, quiz, onPick, onReady }) {
   const { scene } = useGLTF(MODEL_URL)
 
   // Siapkan sekali. Dijaga flag karena StrictMode render dua kali di dev —
@@ -120,26 +125,30 @@ function Model({ selected, hiddenLayers, onPick, onReady }) {
     onReady(names)
   }, [names, onReady])
 
+  // Mode quiz: panggung = daftar `visible` soal. Mode atlas (quiz null): toggle layer.
+  const stage = quiz?.visible
   useEffect(() => {
     scene.traverse((o) => {
       if (!o.isMesh) return
-      const show = !hiddenLayers.includes(layerOf(o.name))
+      const show = stage ? inVisible(o.name, stage) : !hiddenLayers.includes(layerOf(o.name))
       o.visible = show
       // Raycaster three.js TIDAK peduli flag `visible` — mesh yang
       // disembunyikan tetap menangkap klik dan memblokir struktur di
       // belakangnya. Matikan raycast-nya, jangan cuma visible-nya.
       o.raycast = show ? o.userData.baseRaycast : NO_RAYCAST
     })
-  }, [scene, hiddenLayers])
+  }, [scene, hiddenLayers, stage])
 
+  // Mode quiz: warna dari marks ({ node: 'benar' | 'salah' }). Mode atlas: struktur terpilih.
+  const marks = quiz?.marks
   useEffect(() => {
     scene.traverse((o) => {
       if (!o.isMesh) return
-      const on = o.name === selected
-      o.material.emissive.copy(on ? HIGHLIGHT : o.userData.baseEmissive)
-      o.material.emissiveIntensity = on ? 0.85 : o.userData.baseEmissiveIntensity
+      const color = marks ? MARK[marks[o.name]] : o.name === selected ? HIGHLIGHT : null
+      o.material.emissive.copy(color ?? o.userData.baseEmissive)
+      o.material.emissiveIntensity = color ? 0.85 : o.userData.baseEmissiveIntensity
     })
-  }, [scene, selected])
+  }, [scene, selected, marks])
 
   // Bedakan tap dari drag OrbitControls. Ambangnya 10 px, bukan 6: jari di
   // layar sentuh selalu bergeser beberapa piksel saat mengetuk, dan ambang
@@ -175,7 +184,8 @@ function Model({ selected, hiddenLayers, onPick, onReady }) {
   )
 }
 
-export default function Viewer({ selected, onPick, onNodes }) {
+// quiz: null = mode atlas; { visible, marks } = mode quiz (visible null = tanpa pembatasan).
+export default function Viewer({ selected, quiz = null, onPick, onNodes }) {
   const [hiddenLayers, setHiddenLayers] = useState([])
   const [counts, setCounts] = useState({})
 
@@ -213,6 +223,7 @@ export default function Viewer({ selected, onPick, onNodes }) {
           <Model
             selected={selected}
             hiddenLayers={hiddenLayers}
+            quiz={quiz}
             onPick={onPick}
             onReady={handleReady}
           />
@@ -220,20 +231,23 @@ export default function Viewer({ selected, onPick, onNodes }) {
         <OrbitControls makeDefault enableDamping dampingFactor={0.1} />
       </Canvas>
 
-      <div className="layers">
-        <div className="layers-title">Layer</div>
-        {LAYERS.map((l) => (
-          <label key={l.prefix} className="layer-row">
-            <input
-              type="checkbox"
-              checked={!hiddenLayers.includes(l.prefix)}
-              onChange={() => toggle(l.prefix)}
-            />
-            <span className="layer-label">{l.label}</span>
-            <span className="layer-count">{counts[l.prefix] ?? 0}</span>
-          </label>
-        ))}
-      </div>
+      {/* Mode quiz: yang tampil ditentukan soal, bukan user. Toggle layer disembunyikan. */}
+      {!quiz && (
+        <div className="layers">
+          <div className="layers-title">Layer</div>
+          {LAYERS.map((l) => (
+            <label key={l.prefix} className="layer-row">
+              <input
+                type="checkbox"
+                checked={!hiddenLayers.includes(l.prefix)}
+                onChange={() => toggle(l.prefix)}
+              />
+              <span className="layer-label">{l.label}</span>
+              <span className="layer-count">{counts[l.prefix] ?? 0}</span>
+            </label>
+          ))}
+        </div>
+      )}
     </div>
   )
 }

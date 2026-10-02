@@ -117,6 +117,38 @@ body {
 .info dd { margin: 0; overflow-wrap: anywhere; }
 .info-empty { color: var(--muted); opacity: 0.55; font-style: italic; }
 
+/* flex-shrink 0: di layar sempit teks region yang membungkus, bukan tombol mode yang terpotong. */
+.mode { display: flex; flex-shrink: 0; align-self: center; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.mode button {
+  font: inherit;
+  font-size: 12px;
+  padding: 4px 10px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.mode button.on { background: var(--line); color: var(--text); }
+
+.quiz-meta { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.quiz-prompt { font-size: 15px; font-weight: 600; margin: 4px 0 8px; }
+.quiz-result { font-size: 13px; margin-bottom: 8px; }
+.quiz-ok { color: #22c55e; font-weight: 600; }
+.quiz-no { color: #ef4444; font-weight: 600; }
+.quiz-btn {
+  font: inherit;
+  font-size: 13px;
+  padding: 6px 14px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+}
+.quiz-explain { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+/* Panel info di dalam panel quiz: tanpa bingkai dan scroll sendiri, panel quiz yang scroll. */
+.quiz .readout { border: 0; padding: 0; margin-top: 10px; min-height: 0; background: none; overflow: visible; }
+
 .attribution {
   padding: 7px 16px;
   font-size: 10.5px;
